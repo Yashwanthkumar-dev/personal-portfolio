@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="responsive.css" />
     <title>personal portfolio</title>
   </head>
   <body>
     <!--  Navigation section  -->
-    <nav class="nav_border">
+    <nav aria-label="Main Navigation" class="nav_border">
       <div class="nav">
         <p class="nav_name">< yashwanth kumar /></p>
 
@@ -19,11 +20,18 @@
           <li><a href="#" class="link">projects</a></li>
           <li><a href="#" class="link">Contact</a></li>
         </ul>
+
+        <!-- hamburger menu -->
+        <div class="menu-border">
+          <div class="menu-button"></div>
+          <div class="menu-button"></div>
+          <div class="menu-button"></div>
+        </div>
       </div>
     </nav>
 
     <!-- Hero section -->
-    <main class="main">
+  <main class="main">
       <div>
         <h1 class="name">
           hello ,i'm <span class="span">Yashwanth kumar</span> Full Stack Java
@@ -47,19 +55,24 @@
           <img
             class="background_right_dot"
             src="/assets/background_dots.png"
-            alt="background_dot"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
           />
         </div>
         <img
           class="hero_image"
-          src="/assets/hero_image.png"
-          alt="portfolio-hero-image"
+          src="/assets/image.webp"
+          alt="Yashwanth Kumar hero profile image"
+          loading="lazy"
         />
         <div>
           <img
             class="background_left_dot"
             src="/assets/background_dots.png"
-            alt="background_dot"
+            alt=""
+            aria-hidden="true"
+            loading="lazy"
           />
         </div>
       </div>
