@@ -9,20 +9,25 @@
   </head>
   <body>
     <!--  Navigation section  -->
-    <nav aria-label="Main Navigation" class="nav_border">
+    <nav aria-label="Main Navigation" class="nav_border" id="navbar">
       <div class="nav">
-        <p class="nav_name">< yashwanth kumar /></p>
+        <p class="nav_name">&lt; yashwanth kumar /&gt;</p>
 
-        <ul class="nav_links">
+        <ul class="nav_links" id="navLinks">
           <li><a href="#" class="link">Home</a></li>
           <li><a href="#" class="link">About</a></li>
           <li><a href="#" class="link">Skills</a></li>
-          <li><a href="#" class="link">projects</a></li>
+          <li><a href="#" class="link">Projects</a></li>
           <li><a href="#" class="link">Contact</a></li>
         </ul>
 
-        <!-- hamburger menu -->
-        <div class="menu-border">
+        <div
+          class="menu-border"
+          id="hamburger"
+          aria-label="Toggle menu"
+          role="button"
+          tabindex="0"
+        >
           <div class="menu-button"></div>
           <div class="menu-button"></div>
           <div class="menu-button"></div>
@@ -31,50 +36,51 @@
     </nav>
 
     <!-- Hero section -->
-  <main class="main">
-      <div>
+    <main class="main">
+      <div class="hero_text">
+        <span class="greeting">👋 Hello there</span>
+
         <h1 class="name">
-          hello ,i'm <span class="span">Yashwanth kumar</span> Full Stack Java
-          Developer
+          I'm <span class="span">Yashwanth<br />Kumar</span>
         </h1>
-        <div class="designOne"></div>
+
+        <p class="role-tag">Full Stack Java Developer</p>
+
         <p class="description">
-          Hi, I’m <span class="description_name">Yashwanth Kumar</span>, a Full
+          Hi, I'm <span class="description_name">Yashwanth Kumar</span>, a Full
           Stack Java Developer passionate about building modern web applications
           using Java, Spring Boot, React.js, and Tailwind CSS. I enjoy creating
           clean, user-friendly, and scalable digital solutions.
         </p>
 
         <div class="cta">
-          <button class="hire">hire me</button>
-          <button class="works">view works</button>
+          <button class="hire">Hire Me</button>
+          <button class="works">View Works</button>
         </div>
       </div>
+
       <div class="image">
-        <div>
-          <img
-            class="background_right_dot"
-            src="/assets/background_dots.png"
-            alt=""
-            aria-hidden="true"
-            loading="lazy"
-          />
-        </div>
+        <img
+          class="background_right_dot"
+          src="/assets/background_dots.png"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+        />
+        <div class="designOne"></div>
         <img
           class="hero_image"
           src="/assets/image.webp"
-          alt="Yashwanth Kumar hero profile image"
+          alt="Yashwanth Kumar — Full Stack Java Developer"
           loading="lazy"
         />
-        <div>
-          <img
-            class="background_left_dot"
-            src="/assets/background_dots.png"
-            alt=""
-            aria-hidden="true"
-            loading="lazy"
-          />
-        </div>
+        <img
+          class="background_left_dot"
+          src="/assets/background_dots.png"
+          alt=""
+          aria-hidden="true"
+          loading="lazy"
+        />
       </div>
     </main>
   </body>
