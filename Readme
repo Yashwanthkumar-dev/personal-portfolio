@@ -1,0 +1,113 @@
+🌐 Personal Portfolio Website
+📌 Overview
+
+This is my personal portfolio website built using HTML, CSS, and JavaScript.
+The purpose of this project is to showcase my skills, projects, and contact information in a clean and responsive format.
+
+This project helps me practice frontend development fundamentals, responsive design, and basic JavaScript functionality.
+
+🚀 Live Demo
+
+👉 https://personal-portfolio-project-kohl.vercel.app/
+
+✨ Features
+
+Fully responsive design for all devices
+Clean and simple UI layout
+Navigation between different sections
+Hover effects and basic animations
+Contact form with simple validation
+Organized and readable code structure
+
+🛠️ Tech Stack
+
+HTML5 – Structure
+CSS3 – Styling, Flexbox, Grid, Media Queries
+JavaScript – Basic interactivity and form validation
+Git & GitHub – Version control
+Vercel – Deployment
+
+📁 Project Structure
+
+personal-portfolio-project/
+│
+├── index.html # Main webpage
+├── responsive.css # Styling file
+├── script.js # JavaScript functionality
+├── assets/ # Images and icons
+└── README.md # Project documentation
+⚙️ How to Run This Project
+
+Follow these steps to run locally:
+
+git clone https://github.com/Yashwanthkumar-dev/personal-portfolio-project.git
+
+cd personal-portfolio-project
+
+open index.html
+
+🧪 Testing Performed
+
+Tested responsiveness on mobile, tablet, and desktop
+Verified form validation (empty and invalid inputs)
+Checked navigation links across sections
+Tested layout alignment in different screen sizes
+Ensured cross-browser compatibility
+
+🧠 Technical Details
+
+This project is built using basic frontend concepts with a focus on responsiveness and clean structure.
+
+The layout is created using HTML semantic elements like header, section, and footer
+CSS Flexbox and Grid are used to arrange sections properly
+Media Queries are added to make the website responsive for mobile, tablet, and desktop screens
+Simple JavaScript DOM manipulation is used for form validation and basic interactions
+The contact form checks for basic input validation like empty fields and correct email format
+The website is deployed using Vercel for hosting
+
+🧠 What I Learned
+
+While building this project, I improved my understanding of:
+
+Structuring a complete web page
+Using Flexbox and Grid for layout design
+Making websites responsive using media queries
+Basic DOM manipulation using JavaScript
+Deploying projects using Vercel
+
+📸 Screenshots
+
+assets/Screenshots/Screenshot from 2026-05-12 20-52-21.png
+assets/Screenshots/Screenshot from 2026-05-12 20-52-28.png
+assets/Screenshots/Screenshot from 2026-05-12 20-52-32.png
+assets/Screenshots/Screenshot from 2026-05-12 20-52-36.png
+assets/Screenshots/Screenshot from 2026-05-12 20-52-41.png
+assets/Screenshots/Screenshot from 2026-05-12 20-52-57.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-01.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-06.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-11.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-15.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-23.png
+assets/Screenshots/Screenshot from 2026-05-12 20-53-25.png
+
+🚀 Future Improvements
+
+Add dark mode toggle
+Improve UI animations
+Add backend support for contact form
+Improve accessibility and SEO
+Add more interactive sections
+
+👨‍💻 About Me
+
+I am Yashwanth Kumar, an MBA student and aspiring Full Stack Developer.
+
+Currently focusing on:
+
+Java & Spring Boot
+React.js
+Full Stack Web Development
+Building real-world projects
+📬 Contact
+GitHub: https://github.com/Yashwanthkumar-dev
+Portfolio: https://personal-portfolio-project-kohl.vercel.app
