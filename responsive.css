@@ -24,7 +24,7 @@
  
       body {
         font-family: "DM Sans", sans-serif;
-        background-color: var(--bg);
+        background-color: var(--white);
         color: var(--text);
         min-height: 100vh;
       }
@@ -34,7 +34,7 @@
         position: sticky;
         top: 0;
         z-index: 1000;
-        background: var(--bg);
+        background: var(white);
         border-bottom: 1px solid rgba(11, 61, 148, 0.1);
       }
  
@@ -126,7 +126,7 @@
       }
  
       /* ===== HERO ===== */
-      .main {
+      #hero {
         width: 100%;
         max-width: 1400px;
         margin: 0 auto;
@@ -250,6 +250,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 1px solid;
       }
  
       .hero_image {
@@ -321,10 +322,10 @@
         }
  
         /* Stack hero vertically */
-        .main {
+        #hero {
           flex-direction: column;
           text-align: center;
-          padding: 40px 20px 60px;
+          padding: 20px 10px 0px;
           gap: 40px;
         }
  
@@ -364,6 +365,7 @@
         .hero_image {
           width: min(260px, 70vw);
           border-radius: 20px;
+          border: 10x solid black;
         }
  
         .background_right_dot,
@@ -382,7 +384,7 @@
           padding: 0 14px;
         }
  
-        .main {
+        #hero {
           padding: 30px 14px 50px;
         }
  
@@ -408,7 +410,7 @@
  
       /* ===== TABLET: 769px – 1023px ===== */
       @media screen and (min-width: 769px) and (max-width: 1023px) {
-        .main {
+        #hero {
           flex-direction: column;
           text-align: center;
           padding: 60px 40px 80px;
@@ -453,7 +455,7 @@
  
       /* ===== DESKTOP: 1024px – 1439px ===== */
       @media screen and (min-width: 1024px) {
-        .main {
+        #hero {
           padding: 80px 60px;
           flex-direction: row;
           text-align: left;
@@ -487,8 +489,8 @@
  
       /* ===== LARGE DESKTOP: 1440px+ ===== */
       @media screen and (min-width: 1440px) {
-        .main {
-          padding: 100px 80px;
+        #hero {
+          padding: 10px 10px;
           gap: 80px;
         }
  
@@ -522,7 +524,7 @@
  
       /* ===== 4K: 2560px+ ===== */
       @media screen and (min-width: 2560px) {
-        .main {
+        #hero {
           padding: 140px 100px;
         }
  
